@@ -1,3 +1,5 @@
+package edu.thiago.anatomiadeclasses;
+//Anatomia de Classes
 public class MinhaClasse{
     public static void main(String[] args) {
         //estrutura variaveis (Tipo NomeBemDefinido = Atribuição)
