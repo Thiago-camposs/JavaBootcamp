@@ -1,3 +1,4 @@
+package usuario;
 import apps.FacebookMessenger;
 import apps.MSNMessenger;
 import apps.ServicoMensagemInstantanea;

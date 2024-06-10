@@ -1,6 +1,6 @@
 package apps;
 
-
+//Aplciando Herança com extends
 public class Telegram extends ServicoMensagemInstantanea {
 	public void enviarMensagem() {
 		validarConectadoInternet();
