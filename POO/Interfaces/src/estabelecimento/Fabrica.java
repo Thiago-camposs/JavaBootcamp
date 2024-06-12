@@ -10,8 +10,7 @@ import equipamentos.multifuncional.EquipamentoMultifuncional;
 public class Fabrica {
     public static void main(String[] args) {
         EquipamentoMultifuncional em = new EquipamentoMultifuncional();   
-    Impressora impressora = new EquipamentoMultifuncional();
-    impressora.imprimir();
-    
+        em.imprimir();
+        em.copiar();
     }
 }
