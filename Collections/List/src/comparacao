@@ -1,0 +1,19 @@
+public void removerItem(String nome){
+        List<Item> itensParaRemover = new ArrayList<>();
+        for (Item i : itensParaRemover) {
+            if (i.getNome().equalsIgnoreCase(nome)) {
+                itensParaRemover.add(i);
+            }
+        }
+        itemList.removeAll(itensParaRemover);
+    }
+
+    public void removerTarefa(String descricao){
+        List<Tarefa> tarefasParaRemover = new ArrayList<>();
+        for (Tarefa t : tarefaList) {
+            if (t.getDescricao().equalsIgnoreCase(descricao)) {
+                tarefasParaRemover.add(t);
+            }
+        }
+        tarefaList.removeAll(tarefasParaRemover);
+    }
